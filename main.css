@@ -5,3 +5,8 @@ body {
 a {
   text-decoration: none;
 }
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
