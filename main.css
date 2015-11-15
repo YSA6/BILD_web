@@ -29,6 +29,6 @@ header {
 
 h1, h2 {
   color: #ffffff;
-  text-shadow: gray;
+  text-shadow: black;
   -webkit-font-smoothing: antialiased;
 }
