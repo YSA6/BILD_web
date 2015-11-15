@@ -56,3 +56,10 @@ nav a, nav a:visited {
 section p {
   font-family: 'Handlee', cursive;
 }
+
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+}
