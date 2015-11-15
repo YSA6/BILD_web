@@ -40,4 +40,5 @@ nav {
 
 nav a {
   color: #fff;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
 }
