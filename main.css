@@ -1,7 +1,13 @@
+/************************************
+MULTI LINE COMMENT
+************************************/
+
+/* site body */
 body {
   background-color: gray;
 }
 
+/* removes underlines in any links */
 a {
   text-decoration: none;
 }
