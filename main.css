@@ -13,3 +13,7 @@ a {
   background: orange;
 }
 
+#logo {
+  text-align: center;
+  margin: 0;
+}
