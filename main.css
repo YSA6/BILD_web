@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color: gray;
 }
 
 a {
@@ -10,7 +10,7 @@ a {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-  background: orange;
+  background: white;
 }
 
 #logo {
