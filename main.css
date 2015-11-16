@@ -7,6 +7,10 @@ body {
   background-color: gray;
 }
 
+body p {
+  text-align: center;
+}
+
 /* removes underlines in any links */
 a {
   text-decoration: none;
