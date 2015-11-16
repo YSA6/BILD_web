@@ -50,8 +50,11 @@ nav {
   background-color: #b6ded5;
 }
 
-nav a, nav a:visited {
+nav li {
   text-align: center;
+}
+
+nav a, nav a:visited {
   font-family: 'Handlee', cursive;
   color: #fff;
   text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
