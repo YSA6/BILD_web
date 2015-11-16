@@ -9,6 +9,7 @@ body {
 
 body p {
   text-align: center;
+  font-size: 30px;
 }
 
 /* removes underlines in any links */
