@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="https://github.com/YSA6/Keypress/blob/development/keypress-2.1.3.min.js"></script>
+    <img src="">
+    <script>
+      (function() {
+        var rotate = document.getElementById('rotate');
+        var iDir = '';
+        var idx = 0;
+        var imag = [];
+        var imagPres = 0;
+        var lengthInMilliseconds = 1000;
+        var len = imag.length;
+        var chImg = function () {
+          imagPres = 0.8;
+          if (idx % 2 == 0) {
+            imagPres = 0.2;
+          }
+          idx = idx === len - 1 ? 0 : ++idx;
+          rotate.src = iDir + imag[idx];
+          setTimeout(chImg, imagPres * lengthInMilliseconds);
+        };
+        setTimeout(chImg, imagPres * lengthInMilliseconds);
+      })();
+      var listener = new window.keypress.Listener();
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
