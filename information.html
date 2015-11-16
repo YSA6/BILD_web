@@ -1,22 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript">  
-    var eventposted=0;  
-    $(document).ready(function(){
-        $('input.button').click(function() {
-            window.setInterval(foo, 100);
-        });
-    });
-    function foo(){
-            if(($(".form-submission-text").is(':visible')) && (eventposted==0)){
-              eventposted = 1;
-              window.location.href = "http://ysa6.github.io/BILD_web/index.html";
-            }
-    }
-    </script>
-  </head>  
   <body>
     <form action="action.php" method="post">
       <fieldset>
